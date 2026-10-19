@@ -136,6 +136,7 @@ h3 {
 
 .link:visited {
     color: var(--color-neutral);
+    text-decoration: none;
 }
 
 /* Spacing Demonstration */
@@ -155,14 +156,8 @@ h3 {
 nav {
     display: flex;
     justify-content: space-between;
-    gap: 0px;
-    border: none;
-    padding: 20px;
+    padding: 5px;
     background-color: var(--color-highlight)
-}
-
-header a {
-    border-top: none;
 }
 
 nav h1 {
@@ -170,7 +165,7 @@ nav h1 {
 }
 
 nav ul {
-    padding: 20px;
+    padding: 10px;
     list-style-type: none;
     display: flex;
 }
@@ -178,4 +173,13 @@ nav ul {
 nav li {
     text-align: center;
     flex: 1;
+}
+
+nav .link {
+    color: var(--color-text-light)
+}
+
+nav .link:visited {
+    color: var(--color-secondary);
+    text-decoration: none;
 }
