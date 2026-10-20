@@ -183,7 +183,7 @@ nav .link {
 }
 
 nav .link:visited {
-    color: var(--color-secondary);
+    color: var(white);
     text-decoration: none;
 }
 
