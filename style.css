@@ -166,13 +166,16 @@ nav h1 {
 
 nav ul {
     padding: 10px;
+    margin: 0;
     list-style-type: none;
     display: flex;
+    justify-content: flex-end;
+    gap: 30px; /* added a gap so it would stop tweaking out in the top right! */
 }
 
 nav li {
     text-align: center;
-    flex: 1;
+    /*flex: 1;*/
 }
 
 nav .link {
