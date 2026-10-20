@@ -197,3 +197,8 @@ aside .photos {
 .explanation {
   flex: 4;
 }
+
+
+iframe {
+    text-align: center;
+}
