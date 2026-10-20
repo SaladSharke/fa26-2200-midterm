@@ -135,7 +135,7 @@ h3 {
 }
 
 .link:visited {
-    color: var(--color-neutral);
+    color: var(--color-text-light);
     text-decoration: none;
 }
 
