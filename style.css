@@ -186,3 +186,14 @@ nav .link:visited {
     color: var(--color-secondary);
     text-decoration: none;
 }
+
+aside .photos {
+  flex: 1;
+  display: grid;
+  float: left;
+  width: 10%;
+}
+
+.explanation {
+  flex: 4;
+}
