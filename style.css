@@ -205,5 +205,5 @@ iframe {
 
 h2.flavortext {
    color: lightgray;
-   text-shadow: 2px 2px 5px red;
+   text-shadow: 2px 2px var(--color-neutral);
 }
