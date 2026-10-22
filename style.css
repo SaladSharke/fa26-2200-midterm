@@ -202,3 +202,7 @@ aside .photos {
 iframe {
     text-align: center;
 }
+
+h2 .flavortext {
+   text-shadow: 2px 2px 5px red;
+}
