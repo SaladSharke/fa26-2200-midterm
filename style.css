@@ -77,7 +77,7 @@ h3 {
 }
 
 .small-text {
-    font-size: 0.75rem;
+    font-size: 1rem;
     color: color-mix(in srgb, var(--color-text-dark) 70%, transparent);
 }
 
@@ -243,7 +243,7 @@ h2.flavortext {
     }
 
     .small-text {
-        font-size: 1.5rem;
+        font-size: 2rem;
     }
 
     ul {
