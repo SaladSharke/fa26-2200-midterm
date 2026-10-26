@@ -224,6 +224,7 @@ h2.flavortext {
     list-style-type:none;
     flex-direction: row;
     flex-wrap: wrap;
+    gap: 10%;
 }
 
 iframe
