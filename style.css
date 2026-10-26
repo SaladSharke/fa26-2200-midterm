@@ -218,6 +218,14 @@ h2.flavortext {
     margin-left: 15px;
 }
 
+.frontpage
+{
+    display: flex;
+    list-style-type:none;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
  @media (orientation: portrait) {
     nav img {
         display: none;
