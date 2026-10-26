@@ -238,6 +238,10 @@ h2.flavortext {
         font-weight: 500;
     }
 
+    h5 {
+        font-size: 2rem;
+    }
+
     .body-text {
         font-size: 2rem;
     }
@@ -248,5 +252,13 @@ h2.flavortext {
 
     ul {
         margin-left: 1.5rem
+    }
+
+    .identlist {
+        font-size: 2rem;
+    }
+
+    .mmnames {
+        font-size-adjust: 0.7;
     }
  }
