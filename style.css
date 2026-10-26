@@ -226,6 +226,13 @@ h2.flavortext {
     flex-wrap: wrap;
 }
 
+iframe
+{
+    border: 0;
+    width: 90vw;
+    height: 80vh;
+}
+
  @media (orientation: portrait) {
     nav img {
         display: none;
