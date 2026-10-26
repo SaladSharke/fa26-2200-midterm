@@ -217,3 +217,36 @@ h2.flavortext {
 .identlist {
     margin-left: 15px;
 }
+
+ @media (orientation: portrait) {
+    main h1 {
+        font-size: 4rem;
+    }
+
+    h2 {
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    h3 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    h4 {
+        font-size: 3rem;
+        font-weight: 500;
+    }
+
+    .body-text {
+        font-size: 2rem;
+    }
+
+    .small-text {
+        font-size: 1.5rem;
+    }
+
+    ul {
+        margin-left: 1.5rem
+    }
+ }
