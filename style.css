@@ -219,7 +219,11 @@ h2.flavortext {
 }
 
  @media (orientation: portrait) {
-    main h1 {
+    nav img {
+        display: none;
+    }
+
+    main h1 { /*we don't need to change the navbar title on mobile*/
         font-size: 4rem;
     }
 
@@ -260,5 +264,9 @@ h2.flavortext {
 
     .mmnames {
         font-size-adjust: 0.7;
+    }
+
+    nav ul {
+        font-size: 1.5rem;
     }
  }
